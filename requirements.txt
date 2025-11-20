@@ -1,0 +1,40 @@
+torch
+torchaudio
+numpy
+scipy
+soundfile
+librosa
+
+# ASR
+faster-whisper
+vosk
+
+# Speaker ID / эмбеддинги
+speechbrain
+
+# Диффузионные модели / генерация изображений
+diffusers
+transformers
+accelerate
+safetensors
+opencv-python
+Pillow
+
+# Оптимизация / ускорение
+onnx
+onnxruntime
+
+# API / микросервисы
+fastapi
+uvicorn
+
+# MLOps / эксперименты
+mlflow
+
+# Ноутбуки / утилиты
+jupyter
+ipykernel
+matplotlib
+tqdm
+
+
