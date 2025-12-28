@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "v2t-service"
+version = "0.1.0"
+description = "Voice-to-Text service with ASR and VAD support"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "faster-whisper>=0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "mypy>=0.950",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

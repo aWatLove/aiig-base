@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: v2t-service
+Version: 0.1.0
+Summary: Voice-to-Text service with ASR and VAD support
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: faster-whisper>=0.9.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: mypy>=0.950; extra == "dev"
+Dynamic: requires-python

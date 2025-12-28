@@ -7,8 +7,7 @@ import soundfile as sf
 import torch
 from faster_whisper import WhisperModel
 from fastapi import FastAPI, UploadFile, File
-from speechbrain.pretrained import EncoderClassifier
-
+from speechbrain.inference import EncoderClassifier
 
 app = FastAPI(title="ASR Service", description="Offline ASR + speaker embeddings prototype")
 

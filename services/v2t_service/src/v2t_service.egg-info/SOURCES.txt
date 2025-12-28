@@ -1,0 +1,16 @@
+pyproject.toml
+setup.py
+src/v2t/__init__.py
+src/v2t/manager.py
+src/v2t/asr/__init__.py
+src/v2t/asr/whisper_impl.py
+src/v2t/core/__init__.py
+src/v2t/core/contract.py
+src/v2t/core/dto.py
+src/v2t/vad/__init__.py
+src/v2t/vad/silero_impl.py
+src/v2t_service.egg-info/PKG-INFO
+src/v2t_service.egg-info/SOURCES.txt
+src/v2t_service.egg-info/dependency_links.txt
+src/v2t_service.egg-info/requires.txt
+src/v2t_service.egg-info/top_level.txt
